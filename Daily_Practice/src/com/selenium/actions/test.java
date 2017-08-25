@@ -14,6 +14,7 @@ public class test {
 				{
 					System.out.println(CH[j]);
 				}
+				System.out.println("Its Printed");
 			}
 		}
 	}
