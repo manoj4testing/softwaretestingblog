@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="rerunfailed">
+  <test name="Test">
+    <classes>
+      <class name="com.selenium.testNG.Testng5"/>
+      <class name="com.selenium.testNG.Testng1"/>
+      <class name="com.selenium.testNG.Testng2"/>
+      <class name="com.selenium.testNG.Testng3"/>
+      <class name="com.selenium.testNG.Testng4"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- rerunfailed -->

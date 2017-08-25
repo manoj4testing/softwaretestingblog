@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [rerunfailed]]">
+  <test name="Test(failed)(failed)">
+    <classes>
+      <class name="com.selenium.testNG.Testng5">
+        <methods>
+          <include name="show5"/>
+        </methods>
+      </class> <!-- com.selenium.testNG.Testng5 -->
+      <class name="com.selenium.testNG.Testng2">
+        <methods>
+          <include name="show2"/>
+        </methods>
+      </class> <!-- com.selenium.testNG.Testng2 -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [rerunfailed]] -->
