@@ -17,6 +17,7 @@ public class Locator_ID
 	public void openwebsite()
 	{
 		driver.manage().window().maximize();
+		System.out.println("Broswer Maximized");
 		driver.manage().timeouts().implicitlyWait(5000, TimeUnit.SECONDS);
 		driver.get("http://opensource.demo.orangehrmlive.com/index.php/auth/login");
 	}
