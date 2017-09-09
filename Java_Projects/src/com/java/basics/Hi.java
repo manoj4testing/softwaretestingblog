@@ -12,7 +12,7 @@ public class Hi
 		System.out.println("Hi");
 		Hi obj=new Hi();
 		obj.abc(new ThisUse());
-		
+		System.out.println("Hi Manoj");
 		
 
 	}
