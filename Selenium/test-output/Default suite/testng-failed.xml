@@ -3,20 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.selenium.testNG.FactoryExample">
+      <class name="com.selenium.basics.TooltipEx">
         <methods>
-          <include name="cc"/>
-          <include name="DD"/>
+          <include name="operation"/>
+          <include name="openbrowser"/>
         </methods>
-      </class> <!-- com.selenium.testNG.FactoryExample -->
-      <class name="com.selenium.testNG.Demo">
-        <methods>
-          <include name="setup"/>
-          <include name="dostuff"/>
-          <include name="teardown"/>
-          <include name="test2"/>
-        </methods>
-      </class> <!-- com.selenium.testNG.Demo -->
+      </class> <!-- com.selenium.basics.TooltipEx -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

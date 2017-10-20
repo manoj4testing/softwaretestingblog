@@ -12,17 +12,17 @@ public class RetriveAllLinks
 	public void importlink() throws InterruptedException
 	{
 		WebDriver driver=new FirefoxDriver();
-		driver.get("http://www.amazon.in/");
+		driver.get("http://www.softwaretestingblog.in/");
 		Thread.sleep(3000);
 		List<WebElement> li=driver.findElements(By.tagName("a"));
 		System.out.println(li.size());
 		for(int i=1;i<li.size();i++)
 		{
-			//String t1=li.get(i).getText();
+			String t1=li.get(i).getText();
 			String t2=li.get(i).getAttribute("href");
-			System.out.println(t2);
+			System.out.println(t1+" --- >> "+t2);
 			
 		}	
-		
+		driver.close();
 	}
 }

@@ -18,7 +18,7 @@ public class CaptureScreenshotWithDifferentName
 	{
 		CaptureScreenshotWithDifferentName obj=new CaptureScreenshotWithDifferentName();
 		driver=new FirefoxDriver();
-		driver.get("http://www.google.com");
+		driver.get("http://www.softwaretestingblog.in");
 		Thread.sleep(3000);
 		obj.getScreenShots("manoj");
 		driver.close();
@@ -29,7 +29,7 @@ public class CaptureScreenshotWithDifferentName
 	{
 		TakesScreenshot ts=(TakesScreenshot)driver;
 		File src=ts.getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(src, new File("G:\\Base_Workspace\\Luna\\Selenium\\Screenshots\\SC" + abc+getTimeStamp() + ".png"));
+		FileUtils.copyFile(src, new File("G:\\Base_Workspace\\Luna\\Selenium\\Screenshots\\SC" + abc+getTimeStamp() + ".png")); //Files are Stored in G:\Base_Workspace\Luna\Selenium\Screenshots
 
 	}
 	public String getTimeStamp() 

@@ -10,7 +10,7 @@ public class WriteTextFile {
 	public static void main(String[] args) throws IOException 
 	{
 		// TODO Auto-generated method stub
-		File f=new File("G:\\Daily Practice\\Practice\\src\\review\\Selenium Text");
+		File f=new File("G:\\Git_Base_Folder\\softwaretestingblog\\Selenium\\src\\com\\selenium\\mix\\Selenium Text");
 		FileWriter fw=new FileWriter(f);
 		BufferedWriter bw=new BufferedWriter(fw);
 		bw.write("Hi Manoj");

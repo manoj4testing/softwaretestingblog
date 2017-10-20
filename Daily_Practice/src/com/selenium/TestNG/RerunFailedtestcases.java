@@ -11,7 +11,7 @@ public class RerunFailedtestcases {
 	{
 		TestNG runner=new TestNG();
 		List <String> list=new ArrayList<String>();
-		list.add("G:\\Selenium\\TestNGPractice\\test-output\\Multipletestcases\\testng-failed.xml");
+		list.add("G:\\Git_Base_Folder\\softwaretestingblog\\Daily_Practice\\test-output\\testng-failed.xml");
 		runner.setTestSuites(list);
 		runner.run();
 

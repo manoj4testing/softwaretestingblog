@@ -11,8 +11,8 @@ public class ActiveElement {
 		// TODO Auto-generated method stub
 		WebDriver obj=new FirefoxDriver();
 		obj.get("http://www.google.com");
-		obj.switchTo().activeElement().sendKeys("stateresults");
-		obj.findElement(By.name("btnG")).click();
+		obj.switchTo().activeElement().sendKeys("softwaretestingblog");
+		obj.findElement(By.name("btnK")).click();
 		Thread.sleep(3000);
 		obj.close();
 	}

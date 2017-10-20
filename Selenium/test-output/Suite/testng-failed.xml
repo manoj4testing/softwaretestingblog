@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <parameter name="Browsername" value="firefox"/>
+  <parameter name="b" value="5"/>
+  <parameter name="Browser" value="ff"/>
   <test name="Test(failed)">
     <classes>
-      <class name="com.selenium.testNG.crossbrowsertesting">
+      <class name="com.selenium.testNG.TestAndParameter">
         <methods>
-          <include name="open" invocation-numbers="0"/>
+          <include name="testImageShown"/>
         </methods>
-      </class> <!-- com.selenium.testNG.crossbrowsertesting -->
+      </class> <!-- com.selenium.testNG.TestAndParameter -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

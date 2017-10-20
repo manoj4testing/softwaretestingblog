@@ -25,7 +25,7 @@ public class DisableChromeNotificationEx {
 		options.setExperimentalOption("prefs", prefs);
 
 		// pass the options object in Chrome driver
-		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "G:\\Testing_Utilities\\BrowsersDriver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver(options);
 		driver.get("https://www.facebook.com/");
 		driver.manage().window().maximize();

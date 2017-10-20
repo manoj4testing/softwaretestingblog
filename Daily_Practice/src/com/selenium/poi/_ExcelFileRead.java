@@ -17,7 +17,7 @@ public class _ExcelFileRead
 	   driver.manage().window().maximize();
 	   driver.get("http://apps.qaplanet.in/qahrm/login.php");
 	   
-	   File ff=new File("C:\\Users\\Monoj\\Desktop\\Doc\\Selenium\\Exl\\Testdata.xlsx");
+	   File ff=new File("G:\\Testdata\\orangehrm_login.xlsx");
 	   FileInputStream fi=new FileInputStream(ff);
 	   XSSFWorkbook wb=new XSSFWorkbook(fi);
 	   XSSFSheet sh=wb.getSheetAt(0);

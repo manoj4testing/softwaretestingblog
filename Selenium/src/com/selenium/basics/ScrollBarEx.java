@@ -10,7 +10,7 @@ public class ScrollBarEx
 	public void scroll() throws InterruptedException
 	{
 		WebDriver driver=new FirefoxDriver();		
-		driver.get("http://odishaportals.in/");		 
+		driver.get("http://www.softwaretestingblog.in/");		 
 	    JavascriptExecutor jse = (JavascriptExecutor) driver;
 	    driver.manage().window().maximize();
 	    Thread.sleep(5000);

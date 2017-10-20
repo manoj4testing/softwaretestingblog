@@ -34,7 +34,4 @@ public class Locator_CSSelector
 		Thread.sleep(5000);
 		driver.close();
 	}
-	
-	
-
 }

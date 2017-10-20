@@ -17,7 +17,7 @@ public class DataProviderExample1 {
 	{
 		WebDriver driver=new FirefoxDriver();
 		driver.manage().window().maximize();
-		driver.get("http://localhost/test/wp-admin/");
+		driver.get("https://www.odishaportals.in/wp-admin/");
 		driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
 		driver.findElement(By.id("user_login")).sendKeys(Uname);
 		driver.findElement(By.id("user_pass")).sendKeys(PWD);

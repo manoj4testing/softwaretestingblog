@@ -27,7 +27,7 @@ public class WriteInTextboxWithoutSendkeys {
 		driver.get("https://www.facebook.com/");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		WebElement input_user=driver.findElement(By.xpath("//*[@id='email']"));
-		setAttribute(input_user,"value","Deepthi");
+		setAttribute(input_user,"value","SoftwareTestingBlog");
 	}
 
 }

@@ -19,7 +19,6 @@ public class HandleDropDown {
 		s.selectByVisibleText("8");
 		Thread.sleep(5000);
 		driver.quit();
-
 	}
 
 }

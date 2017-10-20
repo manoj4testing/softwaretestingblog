@@ -27,14 +27,9 @@ public class DynamicWebTable {
 			if(date.equals("21"))
 			{
 				li.get(i).click();
-			}
-			
-				
+			}	
 		}
-		
-		
-		
-
+		driver.close();
 	}
 
 }

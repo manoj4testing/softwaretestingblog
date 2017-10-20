@@ -15,7 +15,7 @@ public class BootstrapDropDown {
 	{
 		WebDriver driver=new FirefoxDriver();
 		driver.manage().window().maximize();
-		driver.get("G:\\Base_Workspace\\Neon\\Selenium\\test\\BootstrapDropdown.html");
+		driver.get("G:\\Testing_Utilities\\Selenium_Practice\\BootstrapDropdown.html");
 		driver.manage().timeouts().implicitlyWait(5000, TimeUnit.SECONDS);
 		driver.findElement(By.id("menu1")).click();
 		List<WebElement> li=driver.findElements(By.xpath(".//ul[@class='dropdown-menu']/li/a"));

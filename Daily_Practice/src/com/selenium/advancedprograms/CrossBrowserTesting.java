@@ -7,9 +7,9 @@ public class CrossBrowserTesting {
 
 	public static void main(String[] args) 
 	{
-		System.setProperty("webdriver.chrome.driver", "G:\\Used Softwares\\Browsers Driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "G:\\Testing_Utilities\\BrowsersDriver\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
-		driver.get("http://www.odishaportals.in");
+		driver.get("http://www.softwaretestingblog.in/");
 
 	}
 

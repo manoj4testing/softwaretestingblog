@@ -16,9 +16,10 @@ public class SamsungPhonePriceDetails
 		driver.get("https://www.flipkart.com");
 		driver.findElement(By.name("q")).sendKeys("samsung j7");
 		driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
-		String xp="//div[.='SAMSUNG Galaxy J7 (Black, 16 GB)']/../../div[2]//div[1]";
+		String xp=".//*[@id='container']/div/div[1]/div/div[2]/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div/a[3]/div/div[1]";
 		String price = driver.findElement(By.xpath(xp)).getText();
 		System.out.println(price);
+		driver.close();
 
 	}
 }
