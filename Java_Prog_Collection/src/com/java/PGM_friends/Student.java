@@ -5,7 +5,7 @@ public class Student
 	String ar[] = {"ashu","amit","adi","aryan"};
 	int mark;
 	double per;
-	Student(int mark)
+	Student(int mark, String string)
 	{
 		this.mark=mark;
 	}
